@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .collapseDiv {
+  padding-left: 30px;
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+header nav .collapseDiv li a:hover {
+  color: #717FE0;
+}
+
+#firstSection {
+  background-image: url(/img/slide-01.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 600px;
+}
+
+#shop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#shop .imgDiv {
+  position: relative;
+}
+#shop .imgDiv .text {
+  position: absolute;
+  top: 20px;
+}
+#shop .imgDiv .text h4 {
+  font-weight: 750;
+}
+#shop .container {
+  padding: 30px;
+  padding-top: 30px;
+}
+#shop .container img {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+#productes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#productes .container h1 {
+  font-weight: 700;
+}
+#productes .container .ptext {
+  display: flex;
+  gap: 25px;
+  color: grey;
+  padding-top: 10px;
+  cursor: pointer;
+}
+#productes .container .icons button {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+}
+#productes .container .icons button:hover {
+  color: #ffffff;
+  background-color: #717FE0;
+  transition: 0.5s;
+}
+#productes .container .divText {
+  display: flex;
+  justify-content: space-between;
+}
+
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .buttons {
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-color: #717FE0;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row .buttons button a i {
+  color: white;
+}
+#apisection .container .row .buttons button a i:hover {
+  color: #717FE0;
+}
+#apisection .container .row .buttons button:hover {
+  background-color: white;
+  color: #717FE0;
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  border: 1px solid #717FE0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-color: #717FE0;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: #717FE0;
+  transition: 0.5s;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  flex-direction: column;
+}
+footer p {
+  color: rgb(158, 158, 158);
+  margin-top: 10px;
+}
+footer .payImg {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
